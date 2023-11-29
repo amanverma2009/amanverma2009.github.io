@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 3</title>
+    <style>
+      body {
+        background-color: rgb(234, 239, 241);
+      }
+      .card {
+        position: absolute;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 280px;
+        height: 500px;
+        margin: 0 auto;
+        top: 100px;
+        left: 600px;
+      }
+      .image {
+        width: inherit;
+        border-radius: 10px;
+        padding: 2px;
+      }
+      .capsule {
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 2px;
+        color: gray;
+      }
+      .para {
+        color: gray;
+      }
+      .readmore {
+        position: absolute;
+        color: blue;
+        background-color: rgb(192, 220, 250);
+        /* border: 2px solid aqua; */
+        border-radius: 20px;
+        padding: 5px;
+        margin: 0 auto;
+        left: 100px;
+        padding: 10px;
+      }
+      .readmore button{
+        border: none;
+        background-color: rgb(192, 220, 250);
+        color: blue;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .readmore button:hover{
+        color: black;
+        background-color: rgb(200, 224, 251);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Image Of a girl with a camera"
+        class="image"
+      />
+      <span class="capsule">Nature</span>
+      <span class="capsule">Lake</span>
+      <h2>Lorem ipsum dolor</h2>
+      <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab sequi
+        porro ad ratione quas? Neque ipsum animi amet modi reprehenderit
+        exercitationem blanditiis.
+      </p>
+      <div class="readmore"><button>Read More</button></div>
+    </div>
+  </body>
+</html>
