@@ -33,7 +33,7 @@ export const metadata = {
     ],
   },
   verification: {
-    google: "HBLv-NeXR3myFtOApWWhwqS35RDoejxYQ5hIwTfVlEs",
+    google: "EHH61u7uz_c2YL5q5T-e8i0Ql_7lSOMZhhlMV98Pesg",
   },
   icons: {
     icon: "/favicon.ico",
