@@ -4,11 +4,20 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "GitInsight",
+    description:
+      "GitInsight is a web application that provides insights into Github profile data, helping developers understand their coding habits and contributions, making it easy for users to navigate and explore their Github data.",
+    image: "/gitinsight-preview.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "APIs"],
+    live: "https://gitinsight-opal.vercel.app/",
+    github: "https://www.github.com/amanvermaweb/gitinsight/",
+  },
+  {
     title: "LexiconAI",
     description:
       "LexiconAI is an AI-powered web app similar to ChatGPT, with multiple language models via APIs for Q&A, content creation, coding assistance, and more.",
     image: "/lexicon-ai-preview.png",
-    tags: ["React", "Tailwind CSS", "APIs"],
+    tags: ["Next.js", "JavaScript", "Tailwind CSS", "APIs"],
     live: "https://lexicon-ai-three.vercel.app/",
     github: "https://www.github.com/amanvermaweb/lexiconai/",
   },
