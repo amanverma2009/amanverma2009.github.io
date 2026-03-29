@@ -4,6 +4,15 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "TruthLens",
+    description:
+      "TruthLens is an AI-powered claim verification engine that analyzes statements using multi-source evidence and structured reasoning. It retrieves relevant information, evaluates source credibility, and generates explainable verdicts instead of black-box outputs.",
+    image: "/truthlens-preview.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "APIs"],
+    live: "https://truthlens-ruddy.vercel.app/",
+    github: "https://www.github.com/amanvermaweb/truthlens/",
+  },
+  {
     title: "GitInsight",
     description:
       "GitInsight is a web application that provides insights into Github profile data, helping developers understand their coding habits and contributions, making it easy for users to navigate and explore their Github data.",
