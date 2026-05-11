@@ -11,7 +11,7 @@ const HeroSection = () => {
           Aman Verma
         </h1>
         <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold">
-          Class 10th Student | Aspiring Web Developer | Coding with Curiosity
+          Class 11th Student | Aspiring Web Developer | Coding with Curiosity
           and Passion
         </h2>
         <p className="text-sm sm:text-base md:text-lg text-muted max-w-2xl">
