@@ -22,10 +22,9 @@ const HeroSection = () => {
         <div className="flex gap-6 mt-4">
           <Link
             className="bg-button text-button-text p-2.5 rounded-xl cursor-pointer hover:scale-105 focus:scale-105 active:scale-95 transition-transform duration-300"
-            href="/resume.pdf"
-            download="Aman_Verma_Resume.pdf"
+            href="https://docs.google.com/document/d/1x_0quHj8o0oePuPkMZGTatxdbtDdOmJeWSXOZYnnZDU/edit?usp=sharing"
           >
-            Download Resume/CV
+            Resume/CV
           </Link>
           <Link
             href="#contact"
