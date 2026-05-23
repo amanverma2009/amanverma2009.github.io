@@ -2,7 +2,10 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center"
+    >
       <div className="container-page flex flex-col items-center justify-center gap-4 md:gap-3 text-center">
         <h1
           id="title"
@@ -11,8 +14,7 @@ const HeroSection = () => {
           Aman Verma
         </h1>
         <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold">
-          Class 11th Student | Aspiring Web Developer | Coding with Curiosity
-          and Passion
+          Class 11th Student | Full Stack Web Developer | Coding with Curiosity and Passion
         </h2>
         <p className="text-sm sm:text-base md:text-lg text-muted max-w-2xl">
           Passionate about creating beautiful, functional web experiences that
