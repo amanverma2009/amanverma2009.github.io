@@ -17,23 +17,13 @@ const AboutSection = () => {
         </div>
         <div className="gap-4 flex flex-col">
           <h3 className="text-xl sm:text-2xl font-bold mt-2 md:mt-0">
-            Hello, I&apos;m Aman! 👋
+            Hello, I&apos;m Aman!
           </h3>
           <p className="section-body">
-            My name is Aman Verma, a 16 year old from Lucknow, India, who is
-            passionate about building websites and apps. I&apos;ve been coding for
-            over three years, starting with the basics and now working on
-            full-stack projects that emphasize clean code and responsive design.
-            I&apos;m constantly learning new technologies to stay ahead and improve
-            the quality of my work.
+            I&apos;ve been building for the web since I was 12. What started with HTML and CSS is now full-stack projects with React, Next.js, Node.js, and MongoDB.
           </p>
           <p className="section-body">
-            I&apos;m motivated by creating real-world solutions and collaborating
-            with others to build functional, user-friendly applications. My
-            current focus is on developing my skills in React, backend
-            technologies, and modern web development practices. I&apos;m eager to
-            take on freelancing opportunities and continue growing as a
-            developer through hands-on projects.
+            My focus is building things that solve real problems - not tutorial reproductions. Currently in 11th grade (PCM) and targeting CS at top universities for 2028.
           </p>
         </div>
       </div>

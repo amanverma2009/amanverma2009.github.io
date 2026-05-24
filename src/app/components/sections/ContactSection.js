@@ -31,8 +31,8 @@ const ContactSection = () => {
   return (
     <section id="contact" className="section flex items-center flex-col gap-10">
       <div className="flex flex-col items-center justify-center gap-4">
-        <h2 className="section-title">Contact Me</h2>
-        <p className="section-subtitle">Let&apos;s build something cool together 👋</p>
+        <h2 className="section-title">Got a project, a collab, or just want to talk tech?</h2>
+        <p className="section-subtitle">I&apos;m open to freelance work, hackathon teams, and interesting problems. Response within 24 hours.</p>
       </div>
       <div className="container-page flex md:flex-row flex-col items-center justify-center gap-6">
         <div className="flex flex-col gap-4 w-full">

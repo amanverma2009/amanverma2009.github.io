@@ -14,7 +14,7 @@ const HeroSection = () => {
           Aman Verma
         </h1>
         <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold">
-          Class 11th Student | Full Stack Web Developer | Coding with Curiosity and Passion
+          Class 11th Student | Full Stack Web Developer
         </h2>
         <p className="text-sm sm:text-base md:text-lg text-muted max-w-2xl">
           Passionate about creating beautiful, functional web experiences that
