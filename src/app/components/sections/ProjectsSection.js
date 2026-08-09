@@ -4,6 +4,15 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "SafeTAP",
+    description:
+      "SafeTAP is a working RFID-based bus tracking and attendance prototype integrating both hardware and software systems. It allows users to track bus locations in real-time and mark attendance using RFID cards, providing a seamless and efficient solution for transportation management.",
+    image: "/safetap-preview.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Hardware(ESP32, RFID card reader, etc.)"],
+    live: "https://safe-tap-nine.vercel.app/",
+    github: "https://www.github.com/amanvermaweb/safe-tap/",
+  },
+  {
     title: "TruthLens",
     description:
       "TruthLens is an AI-powered claim verification engine that analyzes statements using multi-source evidence and structured reasoning. It retrieves relevant information, evaluates source credibility, and generates explainable verdicts instead of black-box outputs.",
